@@ -26,6 +26,7 @@ public class GameplayLoop : NetworkBehaviour
             unusedSpawnPoints.Remove(spawnPoint);
             _players[i].RpcTeleport(spawnPoint.position);
             _players[i].AllowMovement = true;
+            Debug.Log($"player {i} teleported to {spawnPoint.position}");
         }
     }
 
