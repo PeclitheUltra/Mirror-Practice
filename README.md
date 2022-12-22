@@ -1,2 +1,1 @@
 # Mirror-Practice
-Alexander Marochkin
